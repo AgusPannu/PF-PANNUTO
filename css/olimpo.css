@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0; }
+
+body {
+  background-color: #181818;
+  font-family: 'Roboto'; }
+
+.BarraNav {
+  background-color: #fbc220;
+  display: block;
+  text-align: center;
+  padding: 20px; }
+  .BarraNav img {
+    max-width: 10%;
+    max-height: 100%; }
+  .BarraNav .NavOpc {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 400; }
+    .BarraNav .NavOpc:hover {
+      cursor: pointer;
+      color: black; }
+
+main {
+  margin: 60px; }
+  main .contenedor {
+    padding: 30px 0;
+    margin-top: 70px;
+    align-content: center;
+    align-items: center; }
+  main #contenidoDestacados {
+    display: grid;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    width: auto;
+    height: auto;
+    margin: 20px 50px;
+    justify-items: center; }
+  main .intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center; }
+  main #contenidoDestacados {
+    display: grid;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    width: auto;
+    height: auto;
+    margin: 20px 50px;
+    justify-items: center; }
+  main .card {
+    border-radius: 5px;
+    height: 425px;
+    width: 300px;
+    padding: 10px 10px;
+    background-color: #fafdff;
+    text-align: start;
+    margin: 20px; }
+    main .card .precioetiqueta {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+      background-color: #fbc220;
+      width: 90px;
+      height: 60px;
+      border-radius: 10px; }
+    main .card .imagencard {
+      background-color: lightgray;
+      height: 340px;
+      margin-bottom: 20px; }
+    main .card .container {
+      padding: 2px 18px; }
+  main #info-principal {
+    width: 45%;
+    margin-right: 30px; }
+  main #titular {
+    color: #fbc220;
+    font-weight: 800;
+    font-size: 4rem; }
+  main #subtitulo {
+    font-size: 25px;
+    color: white;
+    font-weight: 400; }
+  main #imagen {
+    background-color: grey;
+    width: 540px;
+    height: 540px; }
+  main .titulares {
+    color: #fbc220;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center; }
+
+.categorias #categoriastit {
+  color: #fbc220;
+  font-weight: 600;
+  font-size: 40px;
+  padding-left: 20px; }
+
+.categorias .CategoriasTags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 45px;
+  width: 250px;
+  padding: 10px 10px;
+  background-color: #fbc220;
+  text-align: center;
+  margin: 20px; }
+
+.categorias .CategoriasTags:hover {
+  background-color: black; }
+
+.categorias .categorianombre {
+  font-size: 1.6rem;
+  text-align: center;
+  color: white; }
+
+.categorias #ListadoCat {
+  float: left; }
+
+footer {
+  padding: 40px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 200;
+  font-size: small; }
+  footer .futer {
+    width: 60%;
+    margin: 0 20px; }
+
+/*Responsive para celulares*/
+@media screen and (max-width: 480px) {
+  .intro {
+    display: flex;
+    flex-direction: column; }
+  #titular {
+    font-size: 40px; }
+  #subtitulo {
+    font-size: 16px;
+    justify-content: center;
+    font-weight: 200; }
+  #info-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    align-content: center; }
+  .NavOpc {
+    display: none; }
+  .contenedor {
+    margin: 10px; }
+  main {
+    margin: 10px; }
+  #imagen {
+    width: 80%;
+    margin-top: 20px; }
+  #contenidoDestacados {
+    margin: 20px;
+    align-content: center; }
+  .card {
+    height: 325px;
+    width: 230px;
+    font-size: 90%; }
+    .card h3 {
+      font-size: 100%;
+      margin-top: 8px; } }
