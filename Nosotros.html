@@ -8,46 +8,96 @@
     <meta name="copyright" content="Olimpo suplementos">   
     <meta name="author" content="Agustin Pannuto">   
     <meta name="audience" content="all">   
-    <meta name="description"     content="Conocenos un poco mas sobre nosotros, quienes somos, nuestra historia">   
-    <meta name="keywords" content="Quienes somos, nuestra historia">
+    <meta name="description"     content="Tienda de suplementos deportivos y articulos para el gym, gran variedad de productos y marcas, nacionales e importadas">   
+    <meta name="keywords" content="Suplementos deportivos, articulos para el gym">
     <link rel="stylesheet" href="css/olimpo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     <title>OlimpoSuplementos</title>
     <link rel="shortcut icon" href="IMAGENES/LOGOS/LOGO CIRCULO BLANCO.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav class="BarraNav">
-                <a href="olimpo.html" id="logo"><img src="IMAGENES/LOGOS/OLIMPO LOGO BLANCO_Mesa de trabajo 1 copia 4.png"></a>
-                <a href="Redes.html"class="NavOpc">Combos</a>
-                <a href="categorias.html" class="NavOpc">Categorias</a>
-                <a href="Nosotros.html"class="NavOpc">Nosotros</a>
-                <a href="contacto.html"class="NavOpc">Contacto</a>
-        </nav>
+       
+    <header class="head">
         
+        <div class="logo">
+            <a href="olimpo.html"><img src="IMAGENES/LOGOS/LOGO BLANCO TEXTO-11.png" alt=""></a>
+        </div>
+
+        <nav class="navbar">
+            <a href="olimpo.html">Home</a>
+            <a href="combos.html">Combos</a>
+            <a href="categorias.html">Categorias</a>
+            <a href="Nosotros.html">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+          </nav>
+          <img src="IMAGENES/menu-btn.png" alt="menuhamburguesa" class="MenuHamburguesa">
+
     </header>
     
     <main>
-        <section class="contenedor intro">
-        <div id="info-principal">
-            <h1 id="titular">Quienes somos</h1>
-            <h2 id="subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus pariatur recusandae enim laudantium tempora deleniti molestias eaque iure, temporibus quae magnam perspiciatis obcaecati dolore. Ullam placeat consequatur, magni tenetur veritatis rerum, fugiat quod ut voluptates consequuntur culpa maiores, incidunt repudiandae?</h2>
-        </div>
-            <div id="imagen"></div>
+        <section class="ContentPrinc">
+        <div class="TextIntro">   
+            <h1 class="titular">Quienes somos</h1>
             
+            <h2 class="subtitulo">Somos los hermanso Pannuto, juntos formamos este emprendimiento de suplementos y articulos deportivos.
+                Ofrecemos los mejores precios y variedad de productos nacionales e importados, facilitandote la compra con todos los medios de pago, como así también envíos y punto de retiro en zona céntrica.
+            
+            </h2>
+        </div>
+            <div><img id="portada" src="IMAGENES/FOTO.png" alt=""></div>
         </section>
-    </main>
-    <footer>
-        <p class="futer">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum error impedit a, libero, consectetur unde ex enim tempora, natus sapiente sunt similique dolorem aliquid possimus dolore quaerat saepe voluptatibus rerum nobis! Iure ab nemo quibusdam voluptate debitis deleniti tempora eveniet.</p> 
-        <p class="futer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis veniam magni modi laboriosam velit voluptates rerum explicabo, ratione, accusamus eum quia expedita ex vero? Minus explicabo eveniet recusandae, similique velit, id quasi nesciunt aspernatur doloremque beatae ullam voluptatem, quidem numquam?</p>
-    </footer>
 
-</body>
-</html>
 
-        
-
-        
     
+
+        
+
+    </main>
+    
+    <main>
+        <h1 class="titular">Donde encontrarnos</h1>
+                
+
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7120.9464604480245!2d-65.20673477139344!3d-26.824896736650516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c16f743dbb1%3A0x596de4dc0cce4a87!2sSan%20Juan%20700%2C%20T4000DPN%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1677285290804!5m2!1ses-419!2sar" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+                </div>
+    </main>
+
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="olimpo.html">
+                        <img src="IMAGENES/LOGOS/OLIMPO LOGO FONDOS BLANCOS_Mesa de trabajo 1 copia 4.png" alt="">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <div class="red-social">
+                    <a href="https://www.facebook.com/olimpo.tuc" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/olimpo.tuc/" class="fa fa-instagram"></a>
+                    <a href="https://wa.me/message/S5KRW6Z4YULBC1" class="fa fa-whatsapp"></a>
+                </div>
+            </div>
+        </div>
+    
+</footer>
+</body>
+
+<script>
+    const MenuHamburguesa = document.querySelector(".MenuHamburguesa")
+    const navbar = document.querySelector(".navbar")
+  
+    MenuHamburguesa.addEventListener('click', () => {
+      navbar.classList.toggle('mobile-menu')
+    })
+  </script>
+
+</html>
